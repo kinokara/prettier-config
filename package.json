@@ -1,13 +1,23 @@
 {
-  "name": "prettier-config",
+  "name": "@kinokara/prettier-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shared prettier config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Islam"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0"
+  "packageManager": "pnpm@10.17.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2"
+  },
+  "exports": {
+    "prettier": "./index.js"
+  }
 }
