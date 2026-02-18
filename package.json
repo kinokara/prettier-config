@@ -1,6 +1,7 @@
 {
   "name": "@kinokara/prettier-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
+  "type": "module",
   "description": "Shared prettier config",
   "main": "index.mjs",
   "author": {
