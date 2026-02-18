@@ -8,7 +8,7 @@ export default {
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
-  importOrderParsesPlugins: [
+  importOrderParserPlugins: [
     "classProperties",
     "decorators-legacy",
     "typescript"
