@@ -2,7 +2,7 @@
   "name": "@kinokara/prettier-config",
   "version": "1.0.2",
   "description": "Shared prettier config",
-  "main": "index.js",
+  "main": "index.mjs",
   "author": {
     "name": "Islam"
   },
@@ -18,6 +18,6 @@
     "@trivago/prettier-plugin-sort-imports": "^6.0.2"
   },
   "exports": {
-    "prettier": "./index.js"
+    "prettier": "./index.mjs"
   }
 }
